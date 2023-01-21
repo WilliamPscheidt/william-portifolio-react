@@ -7,67 +7,67 @@ const projetos = () => {
             <ul>
                 <li>
                     <a href="https://github.com/WilliamPscheidt/lsw-windows"> lsw project</a>
-                    Rust
+                       Rust
                 </li>
                 <li>
                     <a href="https://github.com/WilliamPscheidt/william-portifolio"> william-portifolio</a>
-                    Yew & Rust stack
+                       Yew & Rust stack
                 </li>
                 <li>
                     <a href="https://github.com/WilliamPscheidt/Ecommerce-API"> Ecommerce-API</a>
-                    Node.JS & MongoDB
+                       Node.JS & MongoDB
                 </li>
                 <li>
                     <a href="https://github.com/WilliamPscheidt/Ecommerce-frontend"> Ecommerce-frontend</a>
-                    React.JS
+                       React.JS
                 </li>
                 <li>
                     <a href="https://github.com/WilliamPscheidt/Space-Agencys"> Space-Agencys</a>
-                    React
+                       React
                 </li>
                 <li>
                     <a href="https://github.com/WilliamPscheidt/Questions-Platform"> Questions-Platform</a>
-                    Node.JS & React
+                       Node.JS & React
                 </li>
                 <li>
                     <a href="https://github.com/WilliamPscheidt/TS-Blog"> TS-Blog</a>
-                    TypeScript
+                       TypeScript
                 </li>
                 <li>
                     <a href="https://github.com/WilliamPscheidt/Todo-list"> Todo-list</a>
-                    React
+                       React
                 </li>
                 <li>
                     <a href="https://github.com/WilliamPscheidt/League-Of-Legends-API"> League-Of-Legends-API</a>
-                    Next.JS
+                       Next.JS
                 </li>
                 <li>
                     <a href="https://github.com/WilliamPscheidt/Python-SnakeGame"> Snakegame</a>
-                    Python
+                       Python
                 </li>
                 <li>
                     <a href="https://github.com/WilliamPscheidt/Login-Register-API"> Login-Register-API</a>
-                    Node.JS
+                       Node.JS
                 </li>
                 <li>
                     <a href="https://github.com/WilliamPscheidt/Web-hosting-template"> Web-hosting-template</a>
-                    React
+                       React
                 </li>
                 <li>
                     <a href="https://github.com/WilliamPscheidt/Blog"> Blog</a>
-                    Node.JS
+                       Node.JS
                 </li>
                 <li>
                     <a href="https://github.com/WilliamPscheidt/Plataforma-Simulados"> Plataforma-Simulados</a>
-                    Node.JS, MySQL & React
+                       Node.JS, MySQL & React
                 </li>
                 <li>
                     <a href="https://github.com/WilliamPscheidt/DNS-Search-Desktop"> DNS-Search-Desktop</a>
-                    Electron
+                       Electron
                 </li>
                 <li>
                     <a href="https://github.com/WilliamPscheidt/DNS-Search"> DNS-Search</a>
-                    Html & JavaScript
+                      Html & JavaScript
                 </li>
             </ul>
         </section>
