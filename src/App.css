@@ -1,38 +1,201 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cousine', sans-serif;
+  color: #222;
+  line-height: 1.8em;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.active {
+  color: rgb(30, 189, 91);
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.active::after {
+  position: absolute;
+  height: 20px;
+  z-index: -1;
+  content: "\00A0";
+  width: 5px;
+  bottom: 7px;
+  left: -10px;
+  display: block;
+  background-color: #22e96457;  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.content {
+  margin-top: 80px;
+  margin-left: 80px;
+  width: 50%;
+}
+
+.content .header {
   display: flex;
-  flex-direction: column;
+  list-style: none;
+}
+
+.content .header a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.content .header #span-header {
+  padding: 0 10px;
+}
+
+.content header .my-name {
+  margin-top: 40px;
+  margin-bottom: -15px;
+}
+
+.content header .my-title {
+  font-weight: 1;
+  margin-bottom: 2px;
+  position: relative;
+  display: inline-block;
+}
+
+.content header .my-title::after {
+  position: absolute;
+  height: 13px;
+  z-index: -1;
+  content: "\00A0";
+  width: 150px;
+  bottom: 12px;
+  left: -5px;
+  display: block;
+  background-color: #22e96457;  
+}
+
+.content .sobre, .content .projetos, .content .skills, .content .contato {
+  padding: 20px 0;
+}
+
+.title {
+  line-height: 1.25;
+  padding: 0 0 5px 0;
+  position: relative;
+  display: inline-block;
+}
+
+.title::after {
+  position: absolute;
+  height: 13px;
+  z-index: -1;
+  content: "\00A0";
+  width: 20px;
+  bottom: 12px;
+  left: -5px;
+  display: block;
+  background-color: #22e9646e;
+}
+
+.content .sobre p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #222222;
+}
+
+.content .skills .skills_ {
+  display: flex;
+  flex-direction: row;
+  max-width: 500px;
+  flex-wrap: wrap;
+}
+
+.content .skills .skills_ .technology {
+  margin-top: 10px;
+}
+
+.content .skills .skills_ .technology #skill {
+  width: 25px;
+  height: 25px;
+  border-radius: 10px;
+  margin: 0 5px;
+}
+
+.content .skills .skills_ .technology {
+  display: flex;
+  margin-right: 5px;
+}
+
+.content .skills .skills_ .technology #separator {
+  padding: 0 0px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 14px;
+}
+
+.footer {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.footer .footer-text {
+  font-weight: 100;
+  font-size: 12px;
+  padding: 40px 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.heart-footer {
+  color: red;
+  padding: 0 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    *,
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cousine', sans-serif;
+    color: #222;
+    line-height: 1.8em;
+    box-sizing: border-box;
+    font-size: 13px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .content header .my-name {
+    font-size: 25px;
+  }
+  
+  .content header .my-title {
+    font-size: 25px;
+  }
+  .content {
+    width: 100%;
+    margin: 0;
+    padding: 30px;
+  }
+  
+  .content .sobre p {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .content .skills .skills_ .technology #skill {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin: 0 5px;
   }
 }
+
