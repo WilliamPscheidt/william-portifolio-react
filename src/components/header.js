@@ -1,8 +1,8 @@
 const header = () => {
     return (
         <header>
-        <nav class="header">
-            <a href="#" class="active">/William</a>
+        <nav className="header" id="header">
+            <a href="#header" className="active">/William</a>
             <span id="span-header">·</span>
             <a href="#skills">/Skills</a>
             <span id="span-header">·</span>
@@ -10,8 +10,8 @@ const header = () => {
             <span id="span-header">·</span>
             <a href="#contato">/Contato</a>
         </nav>
-        <h1 class="my-name">William Pscheidt Polaski</h1>
-        <h1 class="my-title">Back-end Developer</h1>
+        <h1 className="my-name">William Pscheidt Polaski</h1>
+        <h1 className="my-title">Back-end Developer</h1>
     </header>
     )
 }

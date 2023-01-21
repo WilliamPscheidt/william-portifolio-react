@@ -1,7 +1,7 @@
 const projetos = () => {
     return (
-        <section class="projetos" id="projetos">
-            <h3 class="title">
+        <section className="projetos" id="projetos">
+            <h3 className="title">
                 Projetos
             </h3>
             <ul>

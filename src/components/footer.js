@@ -1,9 +1,9 @@
 const footer = () => {
     return (
-        <footer class="footer">
-            <h4 class="footer-text">Criado com</h4>
-            <span class="heart-footer"> ❤ </span>
-            <h4 class="footer-text">por William Pscheidt</h4>
+        <footer className="footer">
+            <h4 className="footer-text">Criado com</h4>
+            <span className="heart-footer"> ❤ </span>
+            <h4 className="footer-text">por William Pscheidt</h4>
         </footer>
     )
 }
