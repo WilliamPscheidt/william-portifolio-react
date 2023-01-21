@@ -4,7 +4,6 @@ import Skills from "./components/skills";
 import Projetos from "./components/projetos";
 import Contato from "./components/contato";
 import Footer from "./components/footer";
-import './app.css'
 
 function App() {
   return (
