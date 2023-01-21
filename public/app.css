@@ -135,9 +135,12 @@ html {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.social-media .icon {
   width: 28px;
   height: 28px;
-  border-radius: 14px;
+  border-radius: 8px;
 }
 
 .footer {
