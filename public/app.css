@@ -138,6 +138,11 @@ html {
   align-items: center;
 }
 
+.social-media .texto-contato {
+  font-size: 14px;
+  font-weight: 500;
+}
+
 .social-media .icon {
   width: 28px;
   height: 28px;
@@ -170,6 +175,44 @@ html {
     font-size: 25px;
   }
 }
+
+.projetos .projeto_ {
+  display: flex;
+  align-items: center;
+}
+
+.projetos .projeto_ .tech {
+  margin-left: -5px;
+}
+
+.projetos .projeto_ #separator {
+  padding: 0 5px;
+  color: #22e964;
+  width: 30px;
+}
+
+.projetos .projeto_ .tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  font-size: 10px;
+  padding: 2px 10px;
+  border-radius: 10px;
+}
+
+.projetos .projeto_ #backend {
+  background-color: #22e96438;
+}
+
+.projetos .projeto_ #frontend {
+  background-color: #1dc8ce2f;
+}
+
+.projetos .projeto_ .tag span {
+  color: rgba(0, 0, 0, 0.568);
+}
+
 @media only screen and (max-width: 768px) {
     *,
   body,
@@ -224,6 +267,10 @@ html {
 
   .active::after {
     display: none; 
+  }
+
+  .projetos .projeto_ .tag {
+    display: none;
   }
 }
 

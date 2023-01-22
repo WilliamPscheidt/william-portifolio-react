@@ -5,69 +5,139 @@ const projetos = () => {
                 Projetos
             </h3>
             <ul>
-                <li>
+                <li className="projeto_">
                     <a href="https://github.com/WilliamPscheidt/lsw-windows"> lsw project</a>
-                       Rust
+                    <span id="separator">·</span>
+                    <span class="tech">Rust</span>
+                    <div className="tag" id="backend">
+                        <span>backend</span>
+                    </div>
                 </li>
-                <li>
+                <li className="projeto_">
                     <a href="https://github.com/WilliamPscheidt/william-portifolio"> william-portifolio</a>
-                       Yew & Rust stack
+                    <span id="separator">·</span>
+                    <span class="tech">Yew & Rust stack</span>
+                    <div className="tag" id="frontend">
+                        <span>frontend</span>
+                    </div>
                 </li>
-                <li>
+                <li className="projeto_">
                     <a href="https://github.com/WilliamPscheidt/Ecommerce-API"> Ecommerce-API</a>
-                       Node.JS & MongoDB
+                    <span id="separator">·</span>
+                    <span class="tech">Node.JS & MongoDB</span>
+                    <div className="tag" id="backend">
+                        <span>backend</span>
+                    </div>
                 </li>
-                <li>
+                <li className="projeto_">
                     <a href="https://github.com/WilliamPscheidt/Ecommerce-frontend"> Ecommerce-frontend</a>
-                       React.JS
+                    <span id="separator">·</span>
+                    <span class="tech">React.JS</span>
+                    <div className="tag" id="frontend">
+                        <span>frontend</span>
+                    </div>
                 </li>
-                <li>
+                <li className="projeto_">
                     <a href="https://github.com/WilliamPscheidt/Space-Agencys"> Space-Agencys</a>
-                       React
+                    <span id="separator">·</span>
+                    <span class="tech">React</span>
+                    <div className="tag" id="frontend">
+                        <span>frontend</span>
+                    </div>
                 </li>
-                <li>
+                <li className="projeto_">
                     <a href="https://github.com/WilliamPscheidt/Questions-Platform"> Questions-Platform</a>
-                       Node.JS & React
+                    <span id="separator">·</span>
+                    <span class="tech">Node.JS & React</span>
+                    <div className="tag" id="frontend">
+                        <span>frontend</span>
+                    </div>
+                    <div className="tag" id="backend">
+                        <span>backend</span>
+                    </div>
                 </li>
-                <li>
+                <li className="projeto_">
                     <a href="https://github.com/WilliamPscheidt/TS-Blog"> TS-Blog</a>
-                       TypeScript
+                    <span id="separator">·</span>
+                    <span class="tech">TypeScript</span>
+                    <div className="tag" id="backend">
+                        <span>backend</span>
+                    </div>
                 </li>
-                <li>
+                <li className="projeto_">
                     <a href="https://github.com/WilliamPscheidt/Todo-list"> Todo-list</a>
-                       React
+                    <span id="separator">·</span>
+                    <span class="tech">React</span>
+                    <div className="tag" id="frontend">
+                        <span>frontend</span>
+                    </div>
                 </li>
-                <li>
+                <li className="projeto_">
                     <a href="https://github.com/WilliamPscheidt/League-Of-Legends-API"> League-Of-Legends-API</a>
-                       Next.JS
+                    <span id="separator">·</span>
+                    <span class="tech">Next.JS</span>
+                    <div className="tag" id="frontend">
+                        <span>frontend</span>
+                    </div>
                 </li>
-                <li>
+                <li className="projeto_">
                     <a href="https://github.com/WilliamPscheidt/Python-SnakeGame"> Snakegame</a>
-                       Python
+                    <span id="separator">·</span>
+                    <span class="tech">Python</span>
+                    <div className="tag" id="frontend">
+                        <span>frontend</span>
+                    </div>
                 </li>
-                <li>
+                <li className="projeto_">
                     <a href="https://github.com/WilliamPscheidt/Login-Register-API"> Login-Register-API</a>
-                       Node.JS
+                    <span id="separator">·</span>
+                    <span class="tech">Node.JS</span>
+                    <div className="tag" id="backend">
+                        <span>backend</span>
+                    </div>
                 </li>
-                <li>
+                <li className="projeto_">
                     <a href="https://github.com/WilliamPscheidt/Web-hosting-template"> Web-hosting-template</a>
-                       React
+                    <span id="separator">·</span>
+                    <span class="tech">React</span>
+                    <div className="tag" id="frontend">
+                        <span>frontend</span>
+                    </div>
                 </li>
-                <li>
+                <li className="projeto_">
                     <a href="https://github.com/WilliamPscheidt/Blog"> Blog</a>
-                       Node.JS
+                    <span id="separator">·</span>
+                    <span class="tech">Node.JS</span>
+                    <div className="tag" id="backend">
+                        <span>backend</span>
+                    </div>
                 </li>
-                <li>
+                <li className="projeto_">
                     <a href="https://github.com/WilliamPscheidt/Plataforma-Simulados"> Plataforma-Simulados</a>
-                       Node.JS, MySQL & React
+                    <span id="separator">·</span>
+                    <span class="tech">Node.JS, MySQL & React</span>
+                    <div className="tag" id="backend">
+                        <span>backend</span>
+                    </div>
+                    <div className="tag" id="frontend">
+                        <span>frontend</span>
+                    </div>
                 </li>
-                <li>
+                <li className="projeto_">
                     <a href="https://github.com/WilliamPscheidt/DNS-Search-Desktop"> DNS-Search-Desktop</a>
-                       Electron
+                    <span id="separator">·</span>
+                    <span class="tech">Electron</span>
+                    <div className="tag" id="frontend">
+                        <span>frontend</span>
+                    </div>
                 </li>
-                <li>
+                <li className="projeto_">
                     <a href="https://github.com/WilliamPscheidt/DNS-Search"> DNS-Search</a>
-                      Html & JavaScript
+                    <span id="separator">·</span>
+                    <span class="tech">Html & JavaScript</span>
+                    <div className="tag" id="frontend">
+                        <span>frontend</span>
+                    </div>
                 </li>
             </ul>
         </section>
