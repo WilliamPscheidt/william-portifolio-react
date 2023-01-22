@@ -4,7 +4,7 @@ const sobre = () => {
             <h3 className="title">
                 Sobre
             </h3>
-            <p>Olá, meu nome é William e atuo como analista de suporte. No entanto, meu foco atual tem sido direcionado para o desenvolvimento de soluções Back-end. Acredito que o desenvolvimento Back-end é fundamental para o sucesso de qualquer projeto, pois é responsável por garantir a estabilidade e a escalabilidade da aplicação. Além disso, trabalhar com Back-end me dá a oportunidade de trabalhar com tecnologias avançadas e com uma equipe de desenvolvedores altamente capacitados. Estou constantemente buscando aprender mais sobre as melhores práticas de desenvolvimento e tendências do mercado para que eu possa contribuir para a criação de soluções cada vez mais eficientes e inovadoras.</p>
+            <p>Meu nome é William e atuo como analista de suporte, porém, atualmente meu foco está direcionado para o desenvolvimento de soluções Back-end. Acredito que a estabilidade e escalabilidade de uma aplicação são fundamentais para o sucesso de qualquer projeto e o desenvolvimento Back-end é responsável por garantir isso. Trabalhar com Back-end me permite trabalhar com tecnologias avançadas e equipes altamente capacitadas. Continuo buscando aprender mais sobre as melhores práticas de desenvolvimento e tendências do mercado para contribuir para soluções cada vez mais eficientes e inovadoras.</p>
         </section>
     )
 }
