@@ -14,7 +14,7 @@ const projetos = () => {
                     </div>
                 </li>
                 <li className="projeto_">
-                    <a href="https://github.com/WilliamPscheidt/william-portifolio"> william-portifolio</a>
+                    <a href="https://github.com/WilliamPscheidt/william-portifolio"> william-portfolio</a>
                     <span id="separator">·</span>
                     <span class="tech">Yew & Rust stack</span>
                     <div className="tag" id="frontend">
