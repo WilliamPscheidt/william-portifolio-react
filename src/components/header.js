@@ -9,7 +9,7 @@ const header = () => {
             <a href="https://github.com/WilliamPscheidt">/Github</a>
         </nav>
         <h1 className="my-name">William Pscheidt Polaski</h1>
-        <h1 className="my-title">Back-end Developer</h1>
+        <h2 className="my-title">Back-end Developer</h2>
     </header>
     )
 }
